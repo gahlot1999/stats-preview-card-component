@@ -95,7 +95,9 @@ body {
 
 .content {
   order: 2;
-  padding: 15%;
+  padding-inline: 10%;
+  padding-block: 8%;
+
   display: grid;
 
   gap: 2.5rem;
