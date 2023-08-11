@@ -39,11 +39,11 @@ body {
 }
 
 .img-container {
-  max-height: 10rem;
+  /* max-height: 10rem; */
 }
 
 .img-container img {
-  height: 100%;
+  /* height: 100%; */
 }
 
 .content {
