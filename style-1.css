@@ -58,7 +58,6 @@ body {
 .content {
   padding: 2rem;
   margin-top: 1rem;
-
   display: grid;
   gap: 1rem;
 }
@@ -76,8 +75,9 @@ body {
   }
 
   .content {
-    display: flex;
-    flex-direction: column;
+    gap: 2rem;
+    padding: 10%;
+    padding-right: 20%;
   }
 
   .img-container {
@@ -118,13 +118,11 @@ body {
   }
 }
 
-@media (min-width: 600px) {
-  .stats {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    gap: 10%;
-  }
+.title {
+  font-family: var(--ff-secondary);
+  color: var(--clr-light-1);
+  text-transform: uppercase;
+  font-size: 1.4rem;
 }
 
 .value {
@@ -132,10 +130,23 @@ body {
   font-weight: var(--fw-bold);
 }
 
-.title {
-  font-family: var(--ff-secondary);
-  color: var(--clr-light-1);
-  text-transform: uppercase;
+@media (min-width: 600px) {
+  .stats {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 10%;
+    align-items: end;
+  }
 
-  font-size: 1.4rem;
+  .main-heading {
+    font-size: 3.2rem;
+  }
+
+  .stat {
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
 }
