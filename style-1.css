@@ -33,6 +33,17 @@ body {
   text-align: center;
   background-color: var(--clr-card-bg-desaturated-blue);
   margin: 2rem 1.4rem;
+
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.img-container {
+  max-height: 10rem;
+}
+
+.img-container img {
+  height: 100%;
 }
 
 .content {
@@ -41,6 +52,10 @@ body {
 
   display: grid;
   gap: 1rem;
+}
+
+.content > p {
+  color: var(--clr-light-2);
 }
 
 .main-heading {
@@ -57,9 +72,12 @@ body {
 }
 
 .value {
-
+  font-size: 2.2rem;
+  font-weight: var(--fw-bold);
 }
 
 .title {
-  
+  font-family: var(--ff-secondary);
+  color: var(--clr-light-1);
+  text-transform: uppercase;
 }
