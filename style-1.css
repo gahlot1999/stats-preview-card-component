@@ -75,6 +75,11 @@ body {
     text-align: inherit;
   }
 
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
   .img-container {
     order: 2;
   }
@@ -101,12 +106,11 @@ body {
 
 .stats {
   margin-top: 1.5rem;
-
   display: grid;
   gap: 1rem;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 600px) {
   .stats {
     display: flex;
     align-items: center;
@@ -117,8 +121,9 @@ body {
 @media (min-width: 600px) {
   .stats {
     display: flex;
+    flex-wrap: wrap;
     justify-content: start;
-    gap: 5rem;
+    gap: 10%;
   }
 }
 
