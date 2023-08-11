@@ -32,18 +32,10 @@ body {
 .card {
   text-align: center;
   background-color: var(--clr-card-bg-desaturated-blue);
-  margin: 2rem 1.4rem;
+  margin: 2rem;
 
   border-radius: 1rem;
-  overflow: hidden;
-}
-
-.img-container {
-  /* max-height: 10rem; */
-}
-
-.img-container img {
-  /* height: 100%; */
+  /* overflow: hidden; */
 }
 
 .content {
