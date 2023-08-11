@@ -33,6 +33,20 @@ body {
   padding: 2rem;
 }
 
+.img-container {
+  position: relative;
+}
+
+.img-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: hsl(var(--clr-violet-hsl), 0.65);
+}
+
 .card {
   text-align: center;
   background-color: var(--clr-card-bg-desaturated-blue);
@@ -73,7 +87,7 @@ body {
   .stats {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 
