@@ -29,13 +29,16 @@ body {
   place-items: center;
 }
 
+.card-container {
+  padding: 2rem;
+}
+
 .card {
   text-align: center;
   background-color: var(--clr-card-bg-desaturated-blue);
-  margin: 2rem;
 
   border-radius: 1rem;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .content {
@@ -61,6 +64,9 @@ body {
 
 .stats {
   margin-top: 1.5rem;
+
+  display: grid;
+  gap: 1rem;
 }
 
 .value {
@@ -72,4 +78,6 @@ body {
   font-family: var(--ff-secondary);
   color: var(--clr-light-1);
   text-transform: uppercase;
+
+  font-size: 1.4rem;
 }
