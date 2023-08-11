@@ -36,5 +36,18 @@ body {
 }
 
 .content {
-  padding: 1rem;
+  padding: 1.4rem;
+  margin-top: 1rem;
+
+  display: grid;
+  gap: 1rem;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+}
+
+.main-heading span {
+  color: var(--clr-violet-accent);
 }
